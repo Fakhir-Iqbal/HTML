@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>FORMS</title>
+    </head>
+    <body>
+    <center><table border="2"cellspacing="3" cellpadding="20" >
+                <tr>
+                     <th  width="500">Student Registration Form</th>
+                </tr>
+            </table></center>
+            <br>
+            <br>
+            <form action="form submit.html">
+                
+                Name : 
+                <input type="text" placeholder="Enter Full Name" name="Name" />
+                <br>
+                <br>
+                Father's Name :
+                <input type="text" placeholder="Enter Father Name" name="Father Name" />
+                <br>
+                <br>
+                Mother's Name :
+                <input type="text" placeholder="Enter Mother Name" name="Mother Name" />
+                <br>
+                <br>
+                Phone Number :
+                <input required type="text" placeholder="Enter Your Number" name="Number" maxlength="11" />
+                <br>
+                <br>
+                Email :
+                <input required type="email" placeholder="Enter Your Mail" name="Mail" />
+                <br>
+                <br>
+                    Gender:  <br />
+                    <input type="radio" name="gender" value="Male"  /> Male 
+                    <input type="radio" name="gender" value="Female" />Female
+                    <input type="radio" name="gender" value="Other" />  Other 
+                <br>
+                <br> 
+                Date of Birth :
+                 <input  placeholder="DOB" type="date" name="DOB" />
+                 <br>
+                 <br>
+                Address :
+                 <input required placeholder="Address" type="text" name="Address" size="50" />  
+                 <br>
+                 <br>
+                 Blood Group 
+                    <select name="blood group">  
+                      <option value="A+">A+</option>
+                      <option value="AB+">AB+</option>
+                      <option value="B+">B+</option>
+                      <option value="B-">B-</option>
+                      <option value="A-">A-</option>
+                      </select> 
+                      <br>
+                <br>
+                    Department:  
+                    <input type="radio" name="Department" value="CSE"  /> CSE 
+                    <input type="radio" name="Department" value="EEE" />EEE
+                    <input type="radio" name="Department" value="BBA" />  BBA
+                    <br /> 
+                    <br /> 
+                    Course:
+                        <input type="checkbox" name="Course"   value="C"  />   C
+                         <input type="checkbox" name="Course"   value="C++" />   C++ 
+                        <input type="checkbox" name="Course"   value="Java Script" />  Java Script
+                        <input type="checkbox" name="Course"   value="AI"  />  AI 
+                        <input type="checkbox" name="Course"   value="Machine Learning"  />  Machine Learning
+                        <input type="checkbox" name="Course"   value="Robotics"  />   Robotics
+                    <br>
+                    <br>
+                    Photo:
+                     <input type="file" name="pic" /><br>
+                     <br>
+                     <br>
+                     
+                     <input type="submit" value="submit" />
+                      
+
+
+            </form>
+       
+    </body>
+</html>

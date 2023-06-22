@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(to bottom,white,darkgreen);
+}
+h1 {
+    font-size: 50;
+   font-style: oblique;
+   text-decoration: underline;
+   -webkit-text-fill-color:green;
+   -webkit-text-stroke:0.5px white;
+}
+p {
+font-style: oblique;
+font-size: 20;
+}
+img {
+    border: 2px solid darkgreen;
+}
+a {
+    color:greenyellow;
+    font-size: 20;
+}
+hr {
+    border-color: rgba(31, 78, 31, 0.699);
+    border width: 100px;
+    
+}
